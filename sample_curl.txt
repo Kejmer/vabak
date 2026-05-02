@@ -1,0 +1,8 @@
+curl -X POST http://localhost:8000/questions \
+  -H "Content-Type: application/json" \
+  -d '{
+    "category": "Science",
+    "question": "What planet is known as the Red Planet?",
+    "answer": "Mars",
+    "value": 200
+  }'
